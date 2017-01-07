@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+
+    >
+
+    <CheckBox
+        android:id="@+id/symp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fever"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+
+    <CheckBox
+        android:id="@+id/symp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shivering"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        />
+
+    <CheckBox
+        android:id="@+id/symp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weakness"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:id="@+id/symp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yellow eyes"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        />
+
+    <CheckBox
+        android:id="@+id/symp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chill"
+
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:id="@+id/symp6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Headache"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <CheckBox
+        android:id="@+id/symp7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watery Stool"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <CheckBox
+        android:id="@+id/symp8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dark coloured urine"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:id="@+id/symp9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skin itch"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">mDoctor</string>
+
+    <string name="state_prompt">--</string>
+
+    <string-array name="states">
+        <item>AK</item>
+        <item>AL</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+
+    <string-array name="specialists">
+        <item>Acupuncturist</item>
+        <item>Allergist</item>
+        <item>Cardiologist</item>
+        <item>Dentist</item>
+        <item>Dermatologist</item>
+        <item>Dietitian</item>
+        <item>Ear Nose Throat Doctor</item>
+        <item>Gastroenterologist</item>
+        <item>General Practitioner</item>
+        <item>Gynecologist</item>
+        <item>Hepatologist</item>
+        <item>Neurologist</item>
+        <item>Nutritionist</item>
+        <item>Optometrist</item>
+        <item>Podiatrist</item>
+        <item>Pulmonologist</item>
+        <item>Psychiatrist</item>
+        <item>Urologist</item>
+    </string-array>
+
+    <string name="height">Enter Your Height</string>
+    <string name="weight"><i>Enter Your Weight (lbs)</i></string>
+    <string name="checkbtn">Check</string>
+    <string name="result_txt">Result</string>
+
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+    <string name="nausea">Nausea</string>
+    <string name="stool">Stool</string>
+    <string name="fever">Fever</string>
+    <string name="headache">Headache</string>
+
+    <string name="btn_display">Display</string>
+    <string name="action_settings">Settings</string>
+    <string name="smart_health">Smart Health</string>
+    <string name="browse_disease">Browse Health Issues</string>
+    <string name="search_by_symptoms">Search By Symptoms</string>
+    <string name="symptoms">Symptoms:</string>
+    <string name="overview">Overview:</string>
+    <string name="expectations">Expectations:</string>
+    <string name="risk_factors">Risk Factors:</string>
+    <string name="treatment">Treatment:</string>
+    <string name="self_care">Self Care:</string>
+    <string name="made_worse_by">Made Worse By:</string>
+    <string name="disease_quiz">Disease Quiz</string>
+    <string name="consult_a_doctor">Consult a Doctor</string>
+    <string name="what_to_do_in_case_of">What to do in case of..</string>
+    <string name="title_activity_browse_disease_category">BrowseDiseaseCategoryActivity</string>
+    <string name="title_activity_disease">DiseaseActivity</string>
+    <string name="title_activity_search_by_symptoms_category">SearchBySymptomsCategoryActivity</string>
+    <string name="play_video">Play Video</string>
+    <string name="title_activity_show_video_category">ShowVideoCategoryActivity</string>
+    <string name="video1">How to perfom CPR on a person</string>
+    <string name="title_activity_disease_quiz">DiseaseQuiz</string>
+    <string name="tru">True</string>
+    <string name="fal">False</string>
+    <string name="next">Next</string>
+    <string name="correct_toast">Correct</string>
+    <string name="incorrect_toast">Incorrect</string>
+    <string name="prompt_user">Choose State</string>
+
+    <string name="gallows">The Gallows</string><string name="head">The Head</string><string name="body">The Body</string><string name="arm">An Arm</string><string name="leg">A Leg</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="frgCreateAccountTitle">Create New Account</string>
+    <string name="hintFirstName">First Name</string>
+    <string name="hintLastName">Last Name</string>
+    <string name="txtMale">Male</string>
+    <string name="txtFemale">Female</string>
+    <string name="hintDOB">Date Of Birth</string>
+    <string name="hintPasswordConfirm">Confirm Password</string>
+    <string name="alertTitle_Duplicated_Email">Duplicated email address</string>
+    <string name="alertMessage_Duplicated_Email">The email address you are trying to use has already existed. Please use another email address.</string>
+    <string name="alertButton_Close">Close</string>
+    <string name="alertTitle_Unknow_Error">Unknow error encountered</string>
+    <string name="title_activity_main">ActivityMain</string>
+    <string name="alertTitle_Invalid_Login">Invalid emal/password pair</string>
+    <string name="alertMessage_Invalid_Login">Sorry, we cannot find any account with the supplied email/password pair. Please check your email/password input and try again.</string>
+    <string name="nav_menu_overview">Overview</string>
+    <string name="nav_menu_bp">Blood Pressure</string>
+    <string name="nav_menu_weight">Body Weight</string>
+    <string name="nav_menu_bs">Blood Sugar</string>
+    <string name="nav_menu_prescription">Prescription</string>
+    <string name="nav_menu_observation">Observation</string>
+    <string name="nav_menu_profile">Profile</string>
+    <string name="nav_menu_permission">Permission</string>
+    <string name="nav_menu_settings">Settings</string>
+    <string name="nav_menu_logout">Sign out</string>
+    <string name="snack_no_internet">Please connect to the Internet</string>
+    <string name="tvSignUp">Not a member? Sign up now.</string>
+
+    <string name="activity_fab_trans">activity_fab_transition</string>
+    <string name="activity_form_trans">activity_form_transition</string>
+    <string name="activity_text_trans">activity_text_transition</string>
+    <string name="validate_empty_email">Please enter your email address</string>
+    <string name="validate_invalid_email">Please enter a valid email address</string>
+    <string name="validate_empty_password">Please enter your password</string>
+    <string name="validate_short_password">Password must contains at least 8 characters</string>
+    <string name="validate_empty_first_name">Please enter your first name</string>
+    <string name="validate_invalid_first_name">Please enter your real first name</string>
+    <string name="validate_empty_last_name">Please enter your last name</string>
+    <string name="validate_invalid_last_name">Please enter your real last name</string>
+    <string name="validate_empty_DOB">Please enter your date of birth</string>
+    <string name="validate_invalid_DOB">Please enter a valid date of birth</string>
+    <string name="validate_empty_sex">Please choose your sex</string>
+    <string name="main_panel_title_bp">Blood pressure</string>
+    <string name="main_panel_title_weight">Body Weight</string>
+    <string name="main_panel_title_bs">Blood Sugar</string>
+    <string name="main_panel_title_pres">Prescription</string>
+
+
+</resources>
