@@ -8,23 +8,22 @@
     >
 
 
-
     <Button
         android:id="@+id/bmibutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Check BMI"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:textSize="20dp"
-        android:layout_gravity="center_horizontal" />
+        android:text="@string/checkbmi"
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/symptomsbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Check Symptoms"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:textSize="20dp"
-        android:layout_gravity="center_horizontal" />
+        android:text="@string/check_symptoms"
+        android:textSize="20dp" />
 
 </LinearLayout>

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
-    >
+    android:orientation="vertical">
 
 
-
-<RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -16,101 +14,99 @@
 
 
         <TextView
-            android:text="@string/height"
+            android:id="@+id/BMI_height"
             android:layout_width="wrap_content"
             android:layout_height="26dp"
-            android:id="@+id/BMI_height"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="45dp"
-            android:layout_centerHorizontal="true" />
+            android:text="@string/height" />
 
         <EditText
+            android:id="@+id/BMI_height_ft_edit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:ems="10"
-            android:id="@+id/BMI_height_ft_edit"
-            android:width="45dp"
-            android:layout_below="@+id/BMI_height"
             android:layout_alignLeft="@+id/BMI_weight_text"
             android:layout_alignStart="@+id/BMI_weight_text"
-            android:nextFocusDown="@+id/BMI_height_in_edit"/>
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:ems="10"
-            android:id="@+id/BMI_height_in_edit"
+            android:layout_below="@+id/BMI_height"
             android:width="45dp"
-            android:layout_alignTop="@+id/BMI_height_ft_edit"
-            android:layout_alignRight="@+id/BMI_weight_text"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:nextFocusDown="@+id/BMI_height_in_edit" />
+
+        <EditText
+            android:id="@+id/BMI_height_in_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/BMI_weight_text"
-            android:nextFocusRight="@id/BMI_height_in_edit"/>
+            android:layout_alignRight="@+id/BMI_weight_text"
+            android:layout_alignTop="@+id/BMI_height_ft_edit"
+            android:width="45dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:nextFocusRight="@id/BMI_height_in_edit" />
 
         <TextView
-            android:text="Ft"
-            android:layout_width="wrap_content"
-            android:layout_height="22dp"
             android:id="@+id/BMI_feet"
-            android:layout_below="@+id/BMI_height"
-            android:layout_toRightOf="@+id/BMI_height_ft_edit" />
-
-        <TextView
-            android:text="In"
             android:layout_width="wrap_content"
             android:layout_height="22dp"
-            android:id="@+id/BMI_inches"
             android:layout_below="@+id/BMI_height"
-            android:layout_toRightOf="@+id/BMI_height_in_edit" />
+            android:layout_toRightOf="@+id/BMI_height_ft_edit"
+            android:text="@string/ft" />
 
+        <TextView
+            android:id="@+id/BMI_inches"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_below="@+id/BMI_height"
+            android:layout_toRightOf="@+id/BMI_height_in_edit"
+            android:text="@string/in" />
 
 
         <EditText
+            android:id="@+id/BMI_weight_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:ems="10"
-            android:id="@+id/BMI_weight_text"
             android:layout_below="@+id/BMI_height_ft_edit"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="numberDecimal" />
 
         <Button
-            android:text="@string/checkbtn"
+            android:id="@+id/BMI_calc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/BMI_calc"
             android:layout_below="@+id/BMI_weight_text"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:text="@string/checkbtn" />
 
         <TextView
-            android:text="@string/result_txt"
+            android:id="@+id/BMI_result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:id="@+id/BMI_result"
             android:layout_below="@+id/BMI_calc"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:text="@string/result_txt"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <SeekBar
+            android:id="@+id/seekBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/seekBar"
-            android:layout_marginTop="36dp"
             android:layout_below="@+id/BMI_result"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp" />
 
         <TextView
-            android:text=""
+            android:id="@+id/classification"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:id="@+id/classification"
             android:layout_below="@+id/seekBar"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
 
     </RelativeLayout>
-
 
 
 </RelativeLayout>

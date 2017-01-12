@@ -4,7 +4,8 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="nav_header_height">160dp</dimen>
-    <dimen name="fab_margin">16dp</dimen> <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
 
     <dimen name="windowElevation">16dp</dimen>
@@ -12,4 +13,25 @@
     <dimen name="padding_main_panel_horizontal">8dp</dimen>
     <dimen name="main_panel_margin_bottom">24dp</dimen>
     <dimen name="title_panel_margin_bottom">8dp</dimen>
+
+    <dimen name="sign_margin_bottom">30dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="margin">8dp</dimen>
+    <dimen name="margin_button">5dp</dimen>
+    <dimen name="button_height">120dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="card_radius">4dp</dimen>
+    <dimen name="widget_detail_default_width">300dp</dimen>
+    <dimen name="widget_detail_default_height">200dp</dimen>
+    <dimen name="widget_detail_min_resize_width">220dp</dimen>
+    <dimen name="recycler_height">120dp</dimen>
+    <dimen name="widger_height">160dp</dimen>
+    <dimen name="doctor_image_height">80dp</dimen>
+    <dimen name="doctor_button_width">110dp</dimen>
+    <dimen name="detail_padding">10dp</dimen>
+    <dimen name="presc_image_height">100dp</dimen>
+    <dimen name="presc_height">130dp</dimen>
+    <dimen name="header_image_height">80dp</dimen>
+    <dimen name="widget_detail_min_resize_height">@dimen/widget_detail_default_height</dimen>
 </resources>

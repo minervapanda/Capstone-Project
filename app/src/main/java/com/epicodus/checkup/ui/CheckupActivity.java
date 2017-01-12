@@ -27,7 +27,7 @@ public class CheckupActivity extends Activity {
         checkbmi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CheckupActivity.this, BMI_calculator.class);
+                Intent i = new Intent(CheckupActivity.this, BmiCalculator.class);
                 startActivity(i);
 
             }

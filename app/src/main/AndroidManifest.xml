@@ -3,6 +3,10 @@
     package="com.epicodus.checkup">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -17,6 +21,56 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.MainActivity" />
         </activity>
+        <activity
+            android:name=".ui.HomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+
+        <provider
+            android:name=".database.DataProvider"
+            android:authorities="plus.health.app" />
+
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".ui.AddDoctorActivity"
+            android:label="@string/title_activity_add_doctor"
+
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".ui.AddMedicationsActivity"
+            android:label="@string/title_activity_add_medications"
+            android:parentActivityName=".ui.HomeActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.epicodus.checkup.ui.HomeActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.DetailActivity"
+            android:label="@string/title_activity_detail"
+
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        </activity>
+
+        <service
+            android:name=".services.UploadIntentService"
+            android:exported="false"></service>
+
         <activity android:name=".ui.FindDoctorActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -27,7 +81,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.MainActivity" />
         </activity>
-        <activity android:name=".ui.BMI_calculator">
+        <activity android:name=".ui.BmiCalculator">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.MainActivity" />
@@ -87,11 +141,6 @@
             android:name=".database.DiseaseActivity"
             android:label="@string/title_activity_disease"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ui.ActivityMain"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
 
         <receiver
             android:name="com.epicodus.checkup.services.WidgetHealth"
@@ -104,13 +153,6 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_info" />
         </receiver>
-
-
-        <provider
-            android:name=".database.HealthDataProvider"
-            android:authorities="com.epicodus.checkup"
-            android:exported="false" />
-
 
     </application>
 

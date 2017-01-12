@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.CreateAccountActivity"
-    android:background="@color/colorPrimary">
+    android:background="@color/colorPrimary"
+    tools:context=".ui.CreateAccountActivity">
 
     <LinearLayout
-        android:orientation="vertical"
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="30dp"
-        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/linearLayout">
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="30dp">
 
         <EditText
             android:id="@+id/nameEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:background="@android:color/white"
-            android:hint="Name"
+            android:hint="@string/name"
             android:nextFocusDown="@+id/passwordEditText"
             android:padding="10dp"
-            android:layout_marginBottom="10dp"
             android:textColor="@android:color/black"
             android:textColorHint="@color/colorDivider"
             android:textSize="20sp" />
@@ -33,12 +32,12 @@
             android:id="@+id/emailEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:background="@android:color/white"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:nextFocusDown="@+id/passwordEditText"
             android:padding="10dp"
-            android:layout_marginBottom="10dp"
             android:textColor="@android:color/black"
             android:textColorHint="@color/colorDivider"
             android:textSize="20sp" />
@@ -47,12 +46,12 @@
             android:id="@+id/passwordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:background="@android:color/white"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:nextFocusDown="@+id/passwordEditText"
             android:padding="10dp"
-            android:layout_marginBottom="10dp"
             android:textColor="@android:color/black"
             android:textColorHint="@color/colorDivider"
             android:textSize="20sp" />
@@ -61,12 +60,12 @@
             android:id="@+id/confirmPasswordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:background="@android:color/white"
-            android:hint="Confirm Password"
+            android:hint="@string/confirmpassword"
             android:inputType="textPassword"
             android:nextFocusDown="@+id/passwordEditText"
             android:padding="10dp"
-            android:layout_marginBottom="10dp"
             android:textColor="@android:color/black"
             android:textColorHint="@color/colorDivider"
             android:textSize="20sp" />
@@ -76,33 +75,33 @@
             android:id="@+id/createUserButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorAccent"
             android:padding="10dp"
             android:text="Sign up"
-            android:background="@color/colorAccent"
-            android:layout_marginTop="15dp"
             android:textColor="@color/colorTextIcons" />
 
         <TextView
+            android:id="@+id/loginTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:textColor="@color/colorTextIcons"
-            android:textStyle="bold"
-            android:textSize="15sp"
             android:text="Already have an account? Log in here!"
-            android:id="@+id/loginTextView"
-            android:layout_gravity="center_horizontal" />
+            android:textColor="@color/colorTextIcons"
+            android:textSize="15sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
         android:text="Create Account"
         android:textColor="@color/colorPrimaryLight"
         android:textSize="30dp"
-        android:textStyle="bold"
-        android:layout_above="@+id/linearLayout"
-        android:layout_centerHorizontal="true" />
+        android:textStyle="bold" />
 
 </RelativeLayout>

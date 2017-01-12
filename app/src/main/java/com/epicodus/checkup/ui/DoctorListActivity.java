@@ -52,7 +52,7 @@ public class DoctorListActivity extends BaseActivity {
     private void getDoctors(String specialty, String city, String state) {
         final BetterDoctorService betterDoctorService = new BetterDoctorService();
 
-        betterDoctorService.findDoctorsByLocationAndSpecialty(specialty, city, state, new Callback() {
+        BetterDoctorService.findDoctorsByLocationAndSpecialty(specialty, city, state, new Callback() {
 
             @Override
             public void onFailure(Call call, IOException e) {

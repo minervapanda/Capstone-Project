@@ -11,10 +11,10 @@ import com.epicodus.checkup.database.BrowseDiseaseCategoryActivity;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class AppointmentsActivity extends BaseActivity implements View.OnClickListener {
-    private Button Checkup;
-    private Button Diseaselist;
-    private Button Prescription;
+public class  AppointmentsActivity extends BaseActivity implements View.OnClickListener {
+    private Button checkup;
+    private Button diseaseList;
+    private Button prescription;
 
     @Bind(R.id.findDoctorButton) Button mFindDoctorButton;
     @Bind(R.id.savedDoctorsButton) Button mSavedDoctorsButton;
@@ -33,12 +33,12 @@ public class AppointmentsActivity extends BaseActivity implements View.OnClickLi
         mSavedDoctorsButton.setOnClickListener(this);
 
 
-        Checkup = (Button) findViewById(R.id.checkup);
-        Diseaselist =(Button) findViewById(R.id.diseaselist);
-        Prescription =(Button) findViewById(R.id.prescription);
+        checkup = (Button) findViewById(R.id.checkup);
+        diseaseList =(Button) findViewById(R.id.diseaselist);
+        prescription =(Button) findViewById(R.id.prescription);
 
 
-        Checkup.setOnClickListener(new View.OnClickListener() {
+        checkup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(AppointmentsActivity.this, CheckupActivity.class);
@@ -46,7 +46,7 @@ public class AppointmentsActivity extends BaseActivity implements View.OnClickLi
 
             }
         });
-        Diseaselist.setOnClickListener(new View.OnClickListener() {
+        diseaseList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(AppointmentsActivity.this, BrowseDiseaseCategoryActivity.class);
@@ -54,10 +54,10 @@ public class AppointmentsActivity extends BaseActivity implements View.OnClickLi
 
             }
         });
-        Prescription.setOnClickListener(new View.OnClickListener() {
+        prescription.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(AppointmentsActivity.this, ActivityMain.class);
+                Intent i = new Intent(AppointmentsActivity.this,HomeActivity.class);
                 startActivity(i);
 
             }

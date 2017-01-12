@@ -5,44 +5,44 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_black_24dp"
-            android:title="Homepage" />
+            android:title="@string/homepage" />
 
         <item
             android:id="@+id/nav_health"
             android:icon="@drawable/ic_favorite_border_black_24dp"
-            android:title="Current Ailments" />
+            android:title="@string/currentailments" />
 
         <item
             android:id="@+id/nav_appointments"
             android:icon="@drawable/ic_today_black_24dp"
-            android:title="Appointments" />
+            android:title="@string/appointments" />
 
         <item
             android:id="@+id/nav_saved_doctors"
             android:icon="@drawable/ic_local_hospital_black_24dp"
-            android:title="My Doctors" />
+            android:title="@string/mydoctors" />
 
         <item
             android:id="@+id/nav_doctor"
             android:icon="@drawable/ic_add_shopping_cart_black_24dp"
-            android:title="Find a Doctor" />
+            android:title="@string/find_doctor" />
 
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_done_black_24dp"
-            android:title="About CheckUp!" />
+            android:title="@string/check_up" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="@string/share" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="@string/send" />
         </menu>
     </item>
 

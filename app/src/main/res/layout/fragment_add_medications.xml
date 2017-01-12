@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_add_medications"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fab_margin"
+    tools:context="com.epicodus.checkup.ui.AddMedicationsActivity"
+    tools:showIn="@layout/activity_add_medications">
+
+    <EditText
+        android:id="@+id/problemET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_button"
+        android:ems="10"
+        android:hint="@string/problem"
+        android:inputType="textPersonName"
+        android:maxLines="1" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/problemET"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addDoctor"
+            style="@style/ButtonStyle"
+            android:layout_width="@dimen/doctor_button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginBottom="@dimen/margin_button"
+            android:contentDescription="@string/add_a_doctor"
+            android:text="@string/add_a_doctor" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/doctorRV"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutPresc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pBtn"
+            style="@style/ButtonStyle"
+            android:layout_width="@dimen/doctor_button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginBottom="@dimen/margin_button"
+            android:contentDescription="@string/add_prescriptions"
+            android:text="@string/add_prescriptions" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listPrescription"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutPresc"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/reportBtn"
+            style="@style/ButtonStyle"
+            android:layout_width="@dimen/doctor_button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginBottom="@dimen/margin_button"
+            android:contentDescription="@string/add_lab_reports"
+            android:text="@string/add_lab_reports" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listReports"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_below="@+id/listPrescription"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/save" />
+</RelativeLayout>

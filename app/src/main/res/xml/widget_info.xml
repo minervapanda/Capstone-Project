@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<appwidget-provider
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:initialLayout="@layout/widget_layout"
-    android:minWidth="294dp"
     android:minHeight="72dp"
+    android:minWidth="294dp"
     android:previewImage="@drawable/yoga"
     android:resizeMode="vertical|horizontal"
-    android:updatePeriodMillis="300000"/>
+    android:updatePeriodMillis="300000" />

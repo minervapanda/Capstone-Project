@@ -124,7 +124,11 @@
     <string name="incorrect_toast">Incorrect</string>
     <string name="prompt_user">Choose State</string>
 
-    <string name="gallows">The Gallows</string><string name="head">The Head</string><string name="body">The Body</string><string name="arm">An Arm</string><string name="leg">A Leg</string>
+    <string name="gallows">The Gallows</string>
+    <string name="head">The Head</string>
+    <string name="body">The Body</string>
+    <string name="arm">An Arm</string>
+    <string name="leg">A Leg</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hintEmail">Email</string>
@@ -176,6 +180,114 @@
     <string name="main_panel_title_weight">Body Weight</string>
     <string name="main_panel_title_bs">Blood Sugar</string>
     <string name="main_panel_title_pres">Prescription</string>
+    <string name="web_client_id">400785403641-hubdj9pklas5iriir55gretp0eql04di.apps.googleusercontent.com</string>
+    <string name="title_activity_home">Medications</string>
+
+
+    <string name="please_add_doctors">Please add Doctors</string>
+    <string name="call">Call</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="authentication_failed">"Authentication failed."</string>
+    <string name="name">Name</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="sms">SMS</string>
+    <string name="add_medication">Add Medication</string>
+    <string name="sign_in_google">Sign in via Google</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="title_activity_add_medications">Add Medications</string>
+    <string name="add_a_doctor">Add a doctor</string>
+    <string name="add_prescriptions">Add prescriptions</string>
+    <string name="add_lab_reports">Add lab reports</string>
+    <string name="add_medication_image">Add medication image</string>
+    <string name="problem">Problem for which you are taking Medication</string>
+    <string name="title_activity_add_doctor">Add Doctor</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="camera">Camera</string>
+    <string name="file">File</string>
+    <string name="save">Save</string>
+    <string name="sign_in_failed">"Sign In failed, Network problem"</string>
+    <string name="error_retreiving_data">"Error retreiving data"</string>
+    <string name="data_stored_successfully">"Data restored successfully"</string>
+    <string name="file_not_supported">"File type not supported"</string>
+    <string name="error_name">"Please enter name"</string>
+    <string name="error_phone_number">"Please enter phone number"</string>
+    <string name="error_email">"Please enter email id"</string>
+    <string name="error_address">"Please enter address"</string>
+    <string name="picture_taken">"Picture taken"</string>
+    <string name="file_selected">"File Selected"</string>
+    <string name="error_save_data_db">"Error saving data in db"</string>
+    <string name="view_more">View More</string>
+
+
+    <string name="doctor_image_view_des">icon shown for the searched doctors laboratory or hospital</string>
+    <string name="file_des">cancels the uploaded image or document</string>
+    <string name="doctor_des">image for the doctor</string>
+    <string name="image_des">image for the doctor</string>
+    <string name="sym_desc">this is for header image for navigation drawer</string>
+    <string name="doc_img">picture for the doctor</string>
+    <string name="back_des">image for background</string>
+    <string name="personimage_des">image icon</string>
+    <string name="noresults_des">shows up when there is no result found</string>
+    <string name="phonenumber_desc">phone number of the doctor</string>
+    <string name="email_desc">email of the doctor</string>
+    <string name="api_icon">Better doctor service icon</string>
+    <string name="addr_desc">Address field icon for the doctor</string>
+    <string name="doctor_icon">image of the doctor</string>
+    <string name="imageforcam_des">image for camera</string>
+    <string name="cancel_desc">icon for cancelling</string>
+    <string name="fileselect_desc">select photo from file</string>
+    <string name="about_app">mDoctor is a new kind of health tracking app. It addresses the social issue of Health literacy among the common population.  Health literacy is the degree to which individuals are able to access ,understand ,evaluate and communicate information to engage with the demands of different health contexts inorder to promote and maintain good health. This mobile application takes as input the symptoms from the patients, processes it, identifies the particular disease and hence provides the right treatment. In this way, this app can be of great help in their everyday health management and can get more involved in decision making regarding their own health.It helps find health specialists in your area. It also helps in taking note of the ailments that one has suffered and it acts as reminders during consultation.  "
+</string>
+    <string name="no_ailments">No ailments added yet. Start tracking your wellness today!</string>
+    <string name="no_results">No ailments added yet. Start tracking your wellness today!</string>
+    <string name="find_doctor">Find A Doctor</string>
+    <string name="saved_doctors">saved doctors</string>
+    <string name="check_up">Check Up!</string>
+    <string name="disease_list">Disease List</string>
+    <string name="prescription">Manage Prescriptions</string>
+    <string name="ft">Ft</string>
+    <string name="in">In</string>
+    <string name="shivering">Shivering</string>
+    <string name="weakness">Weakness</string>
+    <string name="yellow_eyes">Yellow Eyes</string>
+    <string name="chill">Chill</string>
+    <string name="watery_stool">Watery Stool</string>
+    <string name="dark_colored_urine">Dark colored urine</string>
+    <string name="skin_itch">Skin Itch</string>
+    <string name="check">Check</string>
+    <string name="checkbmi">Check BMI</string>
+    <string name="check_symptoms">Check Symptoms</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="additional_notes">Additional notes</string>
+    <string name="homepage">Homepage</string>
+    <string name="currentailments">Current ailments</string>
+    <string name="appointments">Appointments</string>
+    <string name="ailment">Ailment</string>
+    <string name="ailmenttitle">Ailment Title</string>
+    <string name="mydoctors">My Doctors</string>
+    <string name="addnewailment">Add New Ailment</string>
+    <string name="doctorname">Doctor Name</string>
+    <string name="search_doctors">Search Doctors</string>
+    <string name="date">Date Here</string>
+    <string name="ailmenttitlehere">Ailment Title Here</string>
+    <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="communicate">Communicate</string>
+    <string name="password">Password</string>
+    <string name="BetterDoctor">Powered by BetterDoctor</string>
+    <string name="ailmentnotes">Ailment Notes</string>
+    <string name="add">Add</string>
+    <string name="noaccount">Dont have an account? Sign Up Here</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="view_ailments">View Ailments</string>
+    <string name="trackhealth">Track Health</string>
+    <string name="speciality">Speciality</string>
+    <string name="firstnoticed">First Noticed</string>
+    <string name="androidstudio">Android Studio</string>
+    <string name="statictext">Static Text</string>
 
 
 </resources>

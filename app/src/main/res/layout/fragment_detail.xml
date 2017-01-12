@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin"
+    card_view:cardCornerRadius="@dimen/card_radius"
+    card_view:cardElevation="@dimen/margin_button">
+
+    <LinearLayout
+        android:id="@+id/content_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/detail_padding">
+
+        <TextView
+            android:id="@+id/probTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="20sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/recycler_height"></android.support.v7.widget.RecyclerView>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listPrescription"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/recycler_height"></android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listReports"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/recycler_height"
+            android:layout_below="@+id/listPrescription"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

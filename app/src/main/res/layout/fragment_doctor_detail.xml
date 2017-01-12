@@ -5,40 +5,40 @@
     tools:context="com.epicodus.checkup.ui.DoctorDetailFragment">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorPrimary">
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="95dp"
             android:background="@android:color/white"
-            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:paddingBottom="20dp">
+            android:paddingTop="20dp">
 
             <TextView
+                android:id="@+id/doctorNameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Doctor Name"
-                android:id="@+id/doctorNameTextView"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:textSize="20sp"
+                android:text="@string/doctorname"
                 android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/specialtyTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Specialty"
-                android:id="@+id/specialtyTextView"
-                android:textColor="@color/colorAccent"
-                android:textStyle="bold"
                 android:layout_alignParentBottom="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:text="@string/speciality"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -46,46 +46,46 @@
             android:layout_height="match_parent">
 
             <LinearLayout
-                android:orientation="vertical"
+                android:id="@+id/linearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
+                android:layout_above="@+id/saveDoctorButton"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_above="@+id/saveDoctorButton"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
                 android:paddingLeft="30dp"
-                android:paddingTop="20dp"
                 android:paddingRight="30dp"
-                android:id="@+id/linearLayout">
+                android:paddingTop="20dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="(503) 223-1282"
                     android:id="@+id/phoneTextView"
-                    android:textColor="@color/colorTextIcons"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="10dp"
-                    android:gravity="center"/>
-
-                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="street"
-                    android:id="@+id/streetTextView"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="(503) 223-1282"
                     android:textColor="@color/colorTextIcons"
                     android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:gravity="center_vertical"/>
+                    android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/streetTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="street"
+                    android:textColor="@color/colorTextIcons"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cityStateTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="city, state, zip"
-                    android:id="@+id/cityStateTextView"
-                    android:textSize="15sp"
                     android:textColor="@color/colorTextIcons"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <ScrollView
@@ -93,28 +93,28 @@
                     android:layout_height="fill_parent"
                     android:layout_marginTop="10dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="About This Doctor"
-                    android:id="@+id/bioTextView"
-                    android:textColor="@color/colorTextIcons"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="10dp"
-                    android:gravity="center_vertical"/>
+                    <TextView
+                        android:id="@+id/bioTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center_vertical"
+                        android:text="About This Doctor"
+                        android:textColor="@color/colorTextIcons"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
 
                 </ScrollView>
 
             </LinearLayout>
 
             <Button
+                android:id="@+id/saveDoctorButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Save Doctor"
-                android:id="@+id/saveDoctorButton"
                 android:layout_alignParentBottom="true"
                 android:background="@color/colorAccent"
+                android:text="Save Doctor"
                 android:textColor="@color/colorTextIcons"
                 android:textSize="15sp" />
 
