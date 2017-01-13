@@ -25,32 +25,32 @@
             android:id="@+id/BMI_height_ft_edit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/BMI_weight_text"
             android:layout_alignStart="@+id/BMI_weight_text"
             android:layout_below="@+id/BMI_height"
             android:width="45dp"
             android:ems="10"
             android:inputType="numberDecimal"
-            android:nextFocusDown="@+id/BMI_height_in_edit" />
+            android:nextFocusDown="@+id/BMI_height_in_edit"
+            android:labelFor="@+id/BMI_height_ft_edit"/>
 
         <EditText
             android:id="@+id/BMI_height_in_edit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/BMI_weight_text"
-            android:layout_alignRight="@+id/BMI_weight_text"
             android:layout_alignTop="@+id/BMI_height_ft_edit"
             android:width="45dp"
             android:ems="10"
             android:inputType="numberDecimal"
-            android:nextFocusRight="@id/BMI_height_in_edit" />
+            android:nextFocusRight="@id/BMI_height_in_edit"
+            android:labelFor="@+id/BMI_height_in_edit" />
 
         <TextView
             android:id="@+id/BMI_feet"
             android:layout_width="wrap_content"
             android:layout_height="22dp"
             android:layout_below="@+id/BMI_height"
-            android:layout_toRightOf="@+id/BMI_height_ft_edit"
+            android:layout_toEndOf="@+id/BMI_height_ft_edit"
             android:text="@string/ft" />
 
         <TextView
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="22dp"
             android:layout_below="@+id/BMI_height"
-            android:layout_toRightOf="@+id/BMI_height_in_edit"
+            android:layout_toEndOf="@+id/BMI_height_in_edit"
             android:text="@string/in" />
 
 
@@ -69,7 +69,8 @@
             android:layout_below="@+id/BMI_height_ft_edit"
             android:layout_centerHorizontal="true"
             android:ems="10"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal"
+            android:labelFor="@+id/BMI_weight_text"/>
 
         <Button
             android:id="@+id/BMI_calc"

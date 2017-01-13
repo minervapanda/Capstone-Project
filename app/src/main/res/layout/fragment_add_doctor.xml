@@ -41,7 +41,8 @@
             android:contentDescription="@string/name"
             android:imeOptions="actionNext"
             android:maxLines="1"
-            android:singleLine="true" />
+            android:singleLine="true"
+            android:labelFor="@+id/nameET"/>
     </LinearLayout>
 
     <LinearLayout
@@ -66,7 +67,8 @@
             android:layout_weight="0.8"
             android:contentDescription="@string/phoneNumber"
             android:imeOptions="actionNext"
-            android:inputType="number" />
+            android:inputType="number"
+            android:labelFor="@+id/phoneET"/>
     </LinearLayout>
 
     <LinearLayout
@@ -92,7 +94,8 @@
             android:contentDescription="@string/email"
             android:imeOptions="actionNext"
             android:inputType="textEmailAddress"
-            android:maxLines="1" />
+            android:maxLines="1"
+            android:labelFor="@+id/emailET"/>
     </LinearLayout>
 
     <LinearLayout
@@ -106,7 +109,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="0.2"
-            android:contentDescription="addr_desc"
+            android:contentDescription="@string/addr_desc"
             app:srcCompat="@drawable/ic_address" />
 
         <EditText
@@ -118,7 +121,9 @@
             android:contentDescription="@string/address"
             android:imeOptions="actionDone"
             android:inputType="text"
-            android:maxLines="1" />
+            android:maxLines="1"
+            android:labelFor="@+id/addressET"
+            />
     </LinearLayout>
 
     <Button

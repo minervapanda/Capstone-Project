@@ -78,7 +78,7 @@
             android:layout_marginTop="15dp"
             android:background="@color/colorAccent"
             android:padding="10dp"
-            android:text="Sign up"
+            android:text="@string/signup"
             android:textColor="@color/colorTextIcons" />
 
         <TextView
@@ -87,7 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:text="Already have an account? Log in here!"
+            android:text="@string/account"
             android:textColor="@color/colorTextIcons"
             android:textSize="15sp"
             android:textStyle="bold" />
@@ -99,7 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/linearLayout"
         android:layout_centerHorizontal="true"
-        android:text="Create Account"
+        android:text="@string/createaccount"
         android:textColor="@color/colorPrimaryLight"
         android:textSize="30dp"
         android:textStyle="bold" />

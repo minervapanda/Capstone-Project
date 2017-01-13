@@ -63,7 +63,7 @@
             android:layout_centerHorizontal="true"
             android:background="@color/colorPrimaryDark"
             android:backgroundTint="@color/colorAccent"
-            android:text="disease_list"
+            android:text="@string/disease_list"
             android:textColor="@color/colorTextIcons"
             android:textSize="20dp" />
 

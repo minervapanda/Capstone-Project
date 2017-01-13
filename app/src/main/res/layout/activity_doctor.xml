@@ -31,7 +31,7 @@
             android:layout_marginBottom="76dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:text="No Search Results Found. Go back and try a different search!"
+            android:text="@string/no_search_results"
             android:textAlignment="center"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/material_grey_850"

@@ -50,7 +50,7 @@
             android:layout_marginTop="15dp"
             android:background="@color/colorAccent"
             android:padding="10dp"
-            android:text="Log in"
+            android:text="@string/login"
             android:textColor="@color/colorTextIcons" />
 
         <TextView

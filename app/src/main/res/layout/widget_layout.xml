@@ -16,7 +16,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:layout_margin="8dip"
-        android:gravity="center_vertical|left"
+        android:gravity="center_vertical|start"
         android:text="@string/statictext"
         android:textColor="#ffffff"></TextView>
 

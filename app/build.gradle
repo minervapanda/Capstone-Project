@@ -6,7 +6,7 @@ android {
         config {
             keyAlias 'udacity'
             keyPassword 'minerva'
-            storeFile file('F:/mDoctor/app/keystore.jks')
+            storeFile file("$rootDir/keystore.jks")
             storePassword 'minerva'
         }
     }

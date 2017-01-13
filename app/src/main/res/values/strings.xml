@@ -288,6 +288,19 @@
     <string name="firstnoticed">First Noticed</string>
     <string name="androidstudio">Android Studio</string>
     <string name="statictext">Static Text</string>
+    <string name="android">android.studio@android.com</string>
+    <string name="no_search_results">No Search Results Found. Go back and try a different search!</string>
+    <string name="city">City</string>
+    <string name="phoneno">(503) 223-1282</string>
+    <string name="street">street</string>
+    <string name="signup">Sign Up</string>
+    <string name="place">city, state, zip</string>
+    <string name="account">Already have an account? Log in here!</string>
+    <string name="createaccount">Create Account</string>
+    <string name="about_doctor">About This Doctor</string>
+    <string name="choosespecialist">Choose A Specialist</string>
+    <string name="save_doctor">Save Doctor</string>
+
 
 
 </resources>

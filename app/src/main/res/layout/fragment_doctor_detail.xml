@@ -23,7 +23,6 @@
                 android:id="@+id/doctorNameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:text="@string/doctorname"
                 android:textColor="@color/colorPrimaryDark"
@@ -50,7 +49,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_above="@+id/saveDoctorButton"
-                android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:orientation="vertical"
@@ -64,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:gravity="center"
-                    android:text="(503) 223-1282"
+                    android:text="@string/phoneno"
                     android:textColor="@color/colorTextIcons"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -74,7 +72,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
-                    android:text="street"
+                    android:text="@string/street"
                     android:textColor="@color/colorTextIcons"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -83,7 +81,7 @@
                     android:id="@+id/cityStateTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="city, state, zip"
+                    android:text="@string/place"
                     android:textColor="@color/colorTextIcons"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -99,7 +97,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:gravity="center_vertical"
-                        android:text="About This Doctor"
+                        android:text="@string/about_doctor"
                         android:textColor="@color/colorTextIcons"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -114,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:background="@color/colorAccent"
-                android:text="Save Doctor"
+                android:text="@string/save_doctor"
                 android:textColor="@color/colorTextIcons"
                 android:textSize="15sp" />
 
